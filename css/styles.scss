@@ -1,0 +1,125 @@
+$color-primary: blue;
+$color-secondary: rgb(132, 177, 243);
+$color-pale: rgb(184, 208, 241);
+$color-mid: rgb(202, 199, 199);
+$color-dark: rgb(3, 3, 32);
+$color-black: black;
+$font: "Racing Sans One", sans-serif ;
+
+body {
+    background-image: url(../images/bluecode.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin:0%;
+    font-family: $font;
+}
+
+.jumbotron {
+    margin:0%;
+    padding: 3px;
+    background-image: linear-gradient(to right, $color-dark, $color-primary, $color-secondary);
+    color:$color-pale;
+    font-family: $font;
+    
+    
+}
+
+.jumbotron-pic {
+   border-radius: 10%;
+   margin-left: 20%;
+   align-items: center;
+}
+
+#title {
+    font-size: 48px;
+   text-align: center;
+}
+
+#sub-title {
+    text-align:center;
+}
+
+#contact-fieldset {
+    border: $color-black solid 2px;
+    background-color: $color-mid;
+    padding-bottom: 3%;
+    padding-top: 2%;
+    
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+
+#skill-fieldset {
+    border: $color-black solid 2px;
+    background-color: $color-mid;
+    padding-bottom: 4%;
+    padding-top: 2%;
+    padding-left: 2%;
+    
+    
+}
+
+#rec-fieldset {
+    border: $color-black solid 2px;
+    background-color:$color-mid;  
+}
+
+#github-fieldset {
+    border: $color-black solid 2px;
+    background-color: $color-mid;
+    text-align: center;
+    padding-bottom: 1%;
+    margin-left: 10%;
+    margin-right: 10%
+}
+
+#training-fieldset {
+    border: $color-black solid 2px;
+    background-color: $color-mid;
+    padding-bottom: 2%;
+    padding-left: 2%;
+}
+
+#about-fieldset {
+    border: $color-black solid 2px;
+    background-color:$color-mid;
+}
+
+#career-fieldset {
+    border: $color-black solid 2px;
+    background-color: $color-mid;
+}
+
+.legend {
+    text-align: center;
+    
+    color: $color-pale;
+    background-image: linear-gradient(to right, $color-dark, $color-primary, $color-secondary);
+    padding-left: 3%;
+    padding-right: 3%;
+    
+}
+
+.card {
+    background-color:$color-secondary ;
+    padding: 2%;
+    margin: 3% 5%;
+    border: solid $color-mid;
+}
+
+.contact {
+    text-align: center;
+   
+}
+
+.progress {
+    width: 150px;
+    height: 12px;
+    
+}
+
+.skills {
+    text-decoration:underline ;
+}

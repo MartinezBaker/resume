@@ -1,117 +1,89 @@
 body {
-    background-image: url(../images/bluecode.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    margin:0%;
-    font-family: "Racing Sans One", sans-serif ;
-}
+  background-image: url(../images/bluecode.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0%;
+  font-family: "Racing Sans One", sans-serif; }
 
 .jumbotron {
-    margin:0%;
-    padding: 3px;
-    background-image: linear-gradient(to right, rgb(3, 3, 32), blue, rgb(132, 177, 243));
-    color:rgb(184, 208, 241);
-    font-family: "Racing Sans One", sans-serif ;
-    
-    
-}
+  margin: 0%;
+  padding: 3px;
+  background-image: linear-gradient(to right, #030320, blue, #84b1f3);
+  color: #b8d0f1;
+  font-family: "Racing Sans One", sans-serif; }
 
 .jumbotron-pic {
-   border-radius: 10%;
-   margin-left: 20%;
-   align-items: center;
-}
+  border-radius: 10%;
+  margin-left: 20%;
+  align-items: center; }
 
 #title {
-    font-size: 48px;
-   text-align: center;
-}
+  font-size: 48px;
+  text-align: center; }
 
 #sub-title {
-    text-align:center;
-}
+  text-align: center; }
 
 #contact-fieldset {
-    border: black solid 2px;
-    background-color: rgb(202, 199, 199);
-    padding-bottom: 3%;
-    padding-top: 2%;
-    
-    margin-left: 5%;
-    margin-right: 5%;
-    
-}
+  border: black solid 2px;
+  background-color: #cac7c7;
+  padding-bottom: 3%;
+  padding-top: 2%;
+  margin-left: 5%;
+  margin-right: 5%; }
 
 #skill-fieldset {
-    border: black solid 2px;
-    background-color: rgb(202, 199, 199);
-    padding-bottom: 4%;
-    padding-top: 2%;
-    padding-left: 2%;
-    
-    
-}
+  border: black solid 2px;
+  background-color: #cac7c7;
+  padding-bottom: 4%;
+  padding-top: 2%; }
 
 #rec-fieldset {
-    border: black solid 2px;
-    background-color: rgb(202, 199, 199);  
-}
+  border: black solid 2px;
+  background-color: #cac7c7; }
 
 #github-fieldset {
-    border: black solid 2px;
-    background-color: rgb(202, 199, 199);
-    text-align: center;
-    padding-bottom: 1%;
-    margin-left: 10%;
-    margin-right: 10%
-}
+  border: black solid 2px;
+  background-color: #cac7c7;
+  text-align: center;
+  padding-bottom: 1%;
+  margin-left: 10%;
+  margin-right: 10%; }
 
 #training-fieldset {
-    border: black solid 2px;
-    background-color: rgb(202, 199, 199);
-    padding-bottom: 2%;
-    padding-left: 2%;
-}
+  border: black solid 2px;
+  background-color: #cac7c7;
+  padding-bottom: 2%;
+  ; }
 
 #about-fieldset {
-    border: black solid 2px;
-    background-color: rgb(202, 199, 199);
-}
+  border: black solid 2px;
+  background-color: #cac7c7; }
 
 #career-fieldset {
-    border: black solid 2px;
-    background-color: rgb(202, 199, 199);
-}
+  border: black solid 2px;
+  background-color: #cac7c7; }
 
 .legend {
-    text-align: center;
-    
-    color:  rgb(184, 208, 241);
-    background-image: linear-gradient(to right, rgb(3, 3, 32), blue, rgb(132, 177, 243));
-    padding-left: 3%;
-    padding-right: 3%;
-    
-}
+  text-align: center;
+  color: #b8d0f1;
+  background-image: linear-gradient(to right, #030320, blue, #84b1f3);
+  padding-left: 3%;
+  padding-right: 3%; }
 
 .card {
-    background-color: rgb(132, 177, 243) ;
-    padding: 2%;
-    margin: 3% 5%;
-    border: solid rgb(202, 199, 199);
-}
+  background-color: #84b1f3;
+  padding: 2%;
+  margin: 3% 5%;
+  border: solid #cac7c7; }
 
 .contact {
-    text-align: center;
-   
-}
+  text-align: center; }
 
 .progress {
-    width: 150px;
-    height: 12px;
-    
-}
+  width: 150px;
+  height: 12px; }
 
 .skills {
-    text-decoration:underline ;
-}
+  text-decoration: underline; }
