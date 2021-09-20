@@ -15,8 +15,7 @@ body {
 
 .jumbotron-pic {
   border-radius: 10%;
-  margin-left: 20%;
-  align-items: center; }
+  width: 10%; }
 
 #title {
   font-size: 48px;
@@ -25,19 +24,28 @@ body {
 #sub-title {
   text-align: center; }
 
+img {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.8); }
+
+fieldset {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8); }
+
 #contact-fieldset {
   border: black solid 2px;
   background-color: #cac7c7;
   padding-bottom: 3%;
   padding-top: 2%;
-  margin-left: 5%;
-  margin-right: 5%; }
+  padding-left: 8%;
+  padding-right: 8%;
+  margin-left: 3%;
+  margin-right: 3%; }
 
 #skill-fieldset {
   border: black solid 2px;
   background-color: #cac7c7;
   padding-bottom: 4%;
-  padding-top: 2%; }
+  padding-top: 2%;
+  padding-left: 2%; }
 
 #rec-fieldset {
   border: black solid 2px;
@@ -53,9 +61,10 @@ body {
 
 #training-fieldset {
   border: black solid 2px;
-  background-color: #cac7c7;
-  padding-bottom: 2%;
-  ; }
+  background-color: #cac7c7; }
+
+.training-pic {
+  width: 20%; }
 
 #about-fieldset {
   border: black solid 2px;

@@ -4,6 +4,7 @@ $color-pale: rgb(184, 208, 241);
 $color-mid: rgb(202, 199, 199);
 $color-dark: rgb(3, 3, 32);
 $color-black: black;
+$kind-of-black: rgba(0,0,0,.8);
 $font: "Racing Sans One", sans-serif ;
 
 body {
@@ -25,10 +26,10 @@ body {
     
 }
 
+
 .jumbotron-pic {
-   border-radius: 10%;
-   margin-left: 20%;
-   align-items: center;
+    border-radius: 10%;
+    width: 10%;
 }
 
 #title {
@@ -40,14 +41,23 @@ body {
     text-align:center;
 }
 
+img {
+    box-shadow:0 0 5px $kind-of-black;
+}
+
+fieldset {
+	box-shadow:0 0 10px $kind-of-black;
+}
+
 #contact-fieldset {
     border: $color-black solid 2px;
     background-color: $color-mid;
     padding-bottom: 3%;
     padding-top: 2%;
-    
-    margin-left: 5%;
-    margin-right: 5%;
+    padding-left: 8%;
+    padding-right: 8%;
+    margin-left: 3%;
+    margin-right: 3%;
     
 }
 
@@ -57,6 +67,7 @@ body {
     padding-bottom: 4%;
     padding-top: 2%;
     padding-left: 2%;
+    
     
     
 }
@@ -78,8 +89,11 @@ body {
 #training-fieldset {
     border: $color-black solid 2px;
     background-color: $color-mid;
-    padding-bottom: 2%;
-    padding-left: 2%;
+   
+}
+
+.training-pic {
+    width: 20%;
 }
 
 #about-fieldset {
@@ -111,6 +125,7 @@ body {
 
 .contact {
     text-align: center;
+   
    
 }
 
