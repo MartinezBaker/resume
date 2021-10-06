@@ -5,9 +5,10 @@ $color-mid: rgb(202, 199, 199);
 $color-dark: rgb(3, 3, 32);
 $color-black: black;
 $kind-of-black: rgba(0,0,0,.8);
+$cert-color: #ebe4e4;
 $font: "Racing Sans One", sans-serif ;
 
-body {
+#index {
     background-image: url(../images/bluecode.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -26,6 +27,9 @@ body {
     
 }
 
+#cert {
+  background-color: $cert-color;
+}
 
 .jumbotron-pic {
     border-radius: 10%;

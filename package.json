@@ -9,7 +9,7 @@
     "start": "npm run watch:all",
     "copyfonts": "copyfiles -f node_modules/font-awesome/fonts/* dist/fonts",
     "imagemin": "imagemin images/* -o dist/images",
-    "usemin": "usemin index.html -d dist --htmlmin -o dist/index.html",
+    "usemin": "usemin index.html -d dist --htmlmin -o dist/index.html && usemin nucampcert.html -d dist --htmlmin -o dist/nucampcert.html && usemin courseracert.html -d dist --htmlmin -o dist/courseracert.html",
     "clean": "rimraf dist",
     "build": "npm run clean && npm run imagemin && npm run copyfonts && npm run usemin",
     "test": "echo \"Error: no test specified\" && exit 1",

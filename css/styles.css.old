@@ -1,4 +1,4 @@
-body {
+#index {
     background-image: url(../images/bluecode.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -15,6 +15,10 @@ body {
     font-family: "Racing Sans One", sans-serif ;
     
     
+}
+
+#cert {
+  background-color: #ebe4e4;
 }
 
 .jumbotron-pic {

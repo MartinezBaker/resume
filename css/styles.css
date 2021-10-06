@@ -1,4 +1,4 @@
-body {
+#index {
   background-image: url(../images/bluecode.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -12,6 +12,10 @@ body {
   background-image: linear-gradient(to right, #030320, blue, #84b1f3);
   color: #b8d0f1;
   font-family: "Racing Sans One", sans-serif; }
+
+#cert {
+  background-color: #ebe4e4;
+}
 
 .jumbotron-pic {
   border-radius: 10%;
